@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q4uDoc - Coming Soon</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+
+        .container {
+            text-align: center;
+            max-width: 600px;
+            padding: 2rem;
+        }
+
+        .logo {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            color: #fff;
+        }
+
+        .brand {
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            letter-spacing: -0.02em;
+        }
+
+        .tagline {
+            font-size: 1.5rem;
+            font-weight: 300;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+
+        .description {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 3rem;
+            opacity: 0.8;
+        }
+
+        .coming-soon {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 15px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .coming-soon h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #fff;
+        }
+
+        .coming-soon p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .feature {
+            text-align: center;
+            padding: 1.5rem;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+        }
+
+        .feature i {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #ffd700;
+        }
+
+        .feature h3 {
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .feature p {
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+
+        .footer {
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            opacity: 0.7;
+        }
+
+        @media (max-width: 768px) {
+            .brand {
+                font-size: 2.5rem;
+            }
+            
+            .tagline {
+                font-size: 1.2rem;
+            }
+            
+            .notify-form {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .email-input {
+                min-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <i class="fas fa-stethoscope"></i>
+        </div>
+        
+        <h1 class="brand">Q4uDoc</h1>
+        <p class="tagline">Medical Learning Platform</p>
+        
+        <p class="description">
+            We're building the future of medical education with innovative learning tools, 
+            expert content, and interactive resources for medical professionals and students.
+        </p>
+
+        <div class="coming-soon">
+            <h2>🚀 Coming Soon</h2>
+            <p>Our platform is currently in development. </p>
+        </div>
+
+        <div class="features">
+            <div class="feature">
+                <i class="fas fa-brain"></i>
+                <h3>Interactive Learning</h3>
+                <p>Engaging medical content</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-users"></i>
+                <h3>Expert Community</h3>
+                <p>Connect with medical professionals</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>Mobile Ready</h3>
+                <p>Learn anywhere, anytime</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2025 Q4uDoc. All rights reserved.</p>
+        </div>
+    </div>
+
+</body>
+</html>
